@@ -4,4 +4,8 @@ class AigleCore {
   constructor() {}
 }
 
-module.exports = AigleCore;
+class AigleProxy {
+  constructor() {}
+}
+
+module.exports = { AigleCore, AigleProxy };
